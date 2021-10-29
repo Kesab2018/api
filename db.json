@@ -20,20 +20,19 @@
     ],
     "energies": [
       {
-        "energy": "Electrical",
+        "energy": "electrical",
         "color": "#0070c0"
       },
       {
-        "energy": "Gas",
+        "energy": "gas",
         "color": "#d0cb00"
       },
       {
-        "energy": "Thermal",
+        "energy": "thermal",
         "color": "#f14124"
       }
     ]
   },
-    
   "elements": [
     {
       "element_name": "Source",
@@ -215,5 +214,10 @@
       "color": "#6A009C"
     }
   
+   
+    
   ]
 }
+ 
+          
+        
