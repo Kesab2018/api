@@ -1,6 +1,39 @@
 {
   "model": {
- 
+    "parameters": [
+      {
+        "name": "periods",
+        "label": "Periods",
+        "type": "number",
+        "required": false,
+        "default": 24,
+        "tooltip": "The period to operate"
+      },
+      {
+        "name": "dt",
+        "label": "Delta T (hours)",
+        "type": "number",
+        "required": false,
+        "default": 1,
+        "tooltip": "The interval"
+      }
+    ],
+    "energies": [
+      {
+        "energy": "Electrical",
+        "color": "#0070c0"
+      },
+      {
+        "energy": "Gas",
+        "color": "#d0cb00"
+      },
+      {
+        "energy": "Thermal",
+        "color": "#f14124"
+      }
+    ]
+  },
+    
   "elements": [
     {
       "element_name": "Source",
@@ -186,6 +219,7 @@
     
   ]
 }
+
  
           
         
