@@ -104,7 +104,7 @@
                 "resource": "file=pv_resource.csv:per_cap",
                 "resource_unit": "energy_per_cap",
                 "energy_eff": 1,
-                "energy_cap_max": 150000
+                "energy_cap_max": 150000,
                 "lifetime": 25
               },
               "costs": {
