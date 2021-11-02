@@ -2,12 +2,7 @@
   "model": {
     "parameters": [
       {
-        "name": "periods",
-        "label": "Periods",
-        "type": "number",
-        "required": false,
-        "default": 24,
-        "tooltip": "The period to operate"
+        
       },
       {
         "name": "dt",
