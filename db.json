@@ -5,26 +5,18 @@
         
       },
       {
-        "name": "dt",
-        "label": "Delta T (hours)",
-        "type": "number",
-        "required": false,
-        "default": 1,
-        "tooltip": "The interval"
+        
       }
     ],
     "energies": [
       {
-        "energy": "electrical",
-        "color": "#0070c0"
+        
       },
       {
-        "energy": "gas",
-        "color": "#d0cb00"
+        
       },
       {
-        "energy": "thermal",
-        "color": "#f14124"
+        
       }
     ]
   },
