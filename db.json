@@ -2,34 +2,21 @@
   "model": {
     "parameters": [
       {
-        "name": "periods",
-        "label": "Periods",
-        "type": "number",
-        "required": false,
-        "default": 24,
-        "tooltip": "The period to operate"
+        
       },
       {
-        "name": "dt",
-        "label": "Delta T (hours)",
-        "type": "number",
-        "required": false,
-        "default": 1,
-        "tooltip": "The interval"
+        
       }
     ],
     "energies": [
       {
-        "energy": "electrical",
-        "color": "#0070c0"
+       
       },
       {
-        "energy": "gas",
-        "color": "#d0cb00"
+        
       },
       {
-        "energy": "thermal",
-        "color": "#f14124"
+        
       }
     ]
   },
@@ -101,19 +88,18 @@
               },
               "constraints": {
                 
-                "resource": "file=pv_resource.csv:per_area",
-                "resource_unit": "energy_per_area",
-                "parasitic_eff": 0.85,
-                "energy_cap_max": 250,
-                "resource_area_max": 1500,
-                "force_resource": true,
-                "resource_area_per_energy_cap": 7,
+                "resource": "file=pv_resource.csv:per_cap",
+                "resource_unit": "energy_per_cap",
+                "energy_eff": 1
+                "energy_cap_max": 150000
                 "lifetime": 25
               },
               "costs": {
                 "monetary": {
                   "interest_rate": 0.1,
-                  "energy_cap": 1350
+                  "energy_cap": 1350,
+                   "om_con": 0.002,
+                   "om_prod": 0.002
                 }
               }
             }
