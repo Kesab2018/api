@@ -8,7 +8,7 @@
                   "name":"Source",
                   "color":"",
                   "parent":"supply",
-                  "carrier_out":"power"
+                  "carrier_out":""
                },
                "constraints":{
                   "resource":"inf",
@@ -31,7 +31,7 @@
                   "name":"Concentrating solar power",
                   "color":"#F9CF22",
                   "parent":"supply_plus",
-                  "carrier_out":"power"
+                  "carrier_out":""
                },
                "constraints":{
                   "storage_cap_max":614033,
@@ -61,7 +61,7 @@
                   "name":"Solar photovoltaic power",
                   "color":"#F9D956",
                   "parent":"supply_plus",
-                  "carrier_out":"power"
+                  "carrier_out":""
                },
                "constraints":{
                   "resource":"file=pv_resource.csv:per_cap",
@@ -88,7 +88,7 @@
                "name":"Power demand",
                "color":"#072486",
                "parent":"demand",
-               "carrier":"power"
+               "carrier":""
             },
             "constraints":{
                "resource":"file=demand-1.csv:demand"
@@ -123,7 +123,7 @@
                "name":"Battery storage",
                "color":"#3B61E3",
                "parent":"storage",
-               "carrier":"power"
+               "carrier":""
             },
             "constraints":{
                "energy_cap_max":1000,
