@@ -64,19 +64,18 @@
                   "carrier_out":"power"
                },
                "constraints":{
-                  "resource":"file=pv_resource.csv:per_area",
-                  "resource_unit":"energy_per_area",
-                  "parasitic_eff":0.85,
+                  "resource":"file=pv_resource.csv:per_cap",
+                  "resource_unit":"energy_per_cap",
+                  "energy_eff":1,
                   "energy_cap_max":250,
-                  "resource_area_max":1500,
-                  "force_resource":true,
-                  "resource_area_per_energy_cap":7,
                   "lifetime":25
                },
                "costs":{
                   "monetary":{
                      "interest_rate":0.1,
-                     "energy_cap":1350
+                     "energy_cap":1350,
+                     "om_con":0,
+                     "om_prod":0
                   }
                }
             }
